@@ -1,0 +1,21 @@
+.container {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movieItem {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  color: #185abc;
+  font: inherit;
+  padding: 0.4rem;
+}
+.movieItem:hover,
+.movieItem:focus-visible {
+  text-decoration: underline;
+}
